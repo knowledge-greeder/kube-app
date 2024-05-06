@@ -7,5 +7,5 @@ kops update cluster --name=kubevpro.mydevprojects.shop --state=s3://kops-s3-suit
 kops validate cluster --name=kubevpro.mydevprojects.shop --state=s3://kops-s3-suite
 
 kops delete cluster --name=kubevpro.mydevprojects.shop --state=s3://kops-s3-suite --yes 
-
+kops delete cluster --name=kubevpro.devopsdev.shop --state=s3://vprofile-kops-state-for-project --yes
 
